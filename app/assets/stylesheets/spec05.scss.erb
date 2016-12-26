@@ -1,0 +1,12 @@
+$white: (
+  "": white,
+  dark: black,
+  contrast: gray,
+);
+
+<% Themizer.themize do %>
+.test05-01 {
+  color: $white~;
+  width: <%= 60 + 40 %>%;
+}
+<% end %>

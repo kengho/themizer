@@ -1,0 +1,49 @@
+@import "spec09-shared";
+
+$block-bgcolor: red;
+
+$somename1-width: (
+  "": 100px,
+  dark: 200px,
+  contrast: 300px
+);
+
+$somename2-width: (
+  "": 200px,
+  dark: 300px
+);
+
+$somename3-cursor: (
+  "": cursor,
+  dark: pointer,
+  contrast: default
+);
+
+$background-color-hover: (
+  "": red,
+  dark: blue,
+  contrast: gray
+);
+
+<% Themizer.themize do %>
+.spec09-01 {
+  background-color: $block-bgcolor;
+  @extend %shadow;
+
+  & div[name="somename1"] {
+    width: $somename1-width~;
+  }
+
+  & div[name="somename2"] {
+    width: $somename2-width~;
+
+    & span[name="somename3"] {
+      cursor: $somename3-cursor~;
+    }
+  }
+
+  &:hover {
+    background-color: $background-color-hover~;
+  }
+}
+<% end %>

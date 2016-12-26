@@ -1,0 +1,12 @@
+$white: (
+  "": white,
+  dark: black,
+  contrast: gray,
+);
+
+<% Themizer.themize do %>
+.test12-01 {
+  color: $white~;
+  // background-color: $some-variable;
+}
+<% end %>

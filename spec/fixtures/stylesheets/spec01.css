@@ -1,0 +1,9 @@
+.test01-01 {
+  color: white;
+}
+.dark .test01-01 {
+  color: black;
+}
+.contrast .test01-01 {
+  color: gray;
+}

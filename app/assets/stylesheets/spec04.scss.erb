@@ -1,0 +1,11 @@
+$white: (
+  "": white,
+  dark: black,
+  // contrast theme var is undefined
+);
+
+<% Themizer.themize do %>
+.test04-01 {
+  color: $white~;
+}
+<% end %>

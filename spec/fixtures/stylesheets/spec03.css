@@ -1,0 +1,18 @@
+.test03-01 {
+  color: white;
+}
+.dark .test03-01 {
+  color: black;
+}
+.contrast .test03-01 {
+  color: gray;
+}
+.test03-02 {
+  color: black;
+}
+.dark .test03-02 {
+  color: gray;
+}
+.contrast .test03-02 {
+  color: white;
+}

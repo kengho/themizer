@@ -1,0 +1,14 @@
+$white: (
+  "": white,
+  dark: black,
+  contrast: gray,
+);
+
+<% Themizer.themize do %>
+.test06-01 {
+  color: $white~;
+  <% Nop.nop do %>
+  width: 100%;
+  <% end %>
+}
+<% end %>

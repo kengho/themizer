@@ -1,0 +1,18 @@
+body, .test16-01 {
+  color: white;
+}
+body:hover, .test16-01:hover  {
+  color: red;
+}
+body.dark, .dark .test16-01 {
+  color: black;
+}
+body.dark:hover, .dark .test16-01:hover {
+  color: blue;
+}
+body.contrast, .contrast .test16-01 {
+  color: gray;
+}
+body.contrast:hover, .contrast .test16-01:hover {
+  color: black;
+}

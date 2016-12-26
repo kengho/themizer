@@ -1,0 +1,13 @@
+$white: (
+  "": white,
+  dark: black,
+  contrast: gray,
+);
+
+<% Themizer.unthemize do %>
+$proxy: $white~;
+
+.test15-01 {
+  color: $proxy !important;
+}
+<% end %>

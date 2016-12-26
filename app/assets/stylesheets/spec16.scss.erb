@@ -1,0 +1,20 @@
+$white: (
+  "": white,
+  dark: black,
+  contrast: gray,
+);
+
+$red: (
+  "": red,
+  dark: blue,
+  contrast: black,
+);
+
+<% Themizer.themize do %>
+body, .test16-01 {
+  color: $white~;
+  &:hover{
+    color: $red~;
+  }
+}
+<% end %>

@@ -1,0 +1,9 @@
+.test11-01 {
+  border: 1px solid white;
+}
+.dark .test11-01 {
+  border: 1px solid black;
+}
+.contrast .test11-01 {
+  border: 1px solid gray;
+}

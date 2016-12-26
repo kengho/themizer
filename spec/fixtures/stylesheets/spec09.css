@@ -1,0 +1,48 @@
+.spec09-01, .dark .spec09-01, .contrast .spec09-01 {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 3px 1px -3px rgba(0, 0, 0, 0.2), 0 2px 3px 0 rgba(0, 0, 0, 0.3) !important;
+}
+.spec09-01 {
+  background-color: red;
+}
+.spec09-01 div[name="somename1"] {
+  width: 100px;
+}
+.spec09-01 div[name="somename2"] {
+  width: 200px;
+}
+.spec09-01 div[name="somename2"] span[name="somename3"] {
+  cursor: cursor;
+}
+.spec09-01:hover {
+  background-color: red;
+}
+.dark .spec09-01 {
+  background-color: red;
+}
+.dark .spec09-01 div[name="somename1"] {
+  width: 200px;
+}
+.dark .spec09-01 div[name="somename2"] {
+  width: 300px;
+}
+.dark .spec09-01 div[name="somename2"] span[name="somename3"] {
+  cursor: pointer;
+}
+.dark .spec09-01:hover {
+  background-color: blue;
+}
+.contrast .spec09-01 {
+  background-color: red;
+}
+.contrast .spec09-01 div[name="somename1"] {
+  width: 300px;
+}
+.contrast .spec09-01 div[name="somename2"] {
+  width: 200px;
+}
+.contrast .spec09-01 div[name="somename2"] span[name="somename3"] {
+  cursor: default;
+}
+.contrast .spec09-01:hover {
+  background-color: gray;
+}

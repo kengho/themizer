@@ -1,0 +1,15 @@
+$border-thickness: 1px;
+
+$white: (
+  "": white,
+  dark: black,
+  contrast: gray,
+);
+
+<% Themizer.themize do %>
+$border: $border-thickness solid $white~;
+
+.test11-01 {
+  border: $border~;
+}
+<% end %>

@@ -1,0 +1,11 @@
+$white-white: (
+  "": white,
+  dark: black,
+  contrast: gray,
+);
+
+<% Themizer.unthemize("dark") do %>
+.test13-01 {
+  color: $white-white~ !important;
+}
+<% end %>
